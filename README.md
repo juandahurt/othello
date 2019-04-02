@@ -1,4 +1,7 @@
 # Othello
 Othello game using alpha-beta algorithm.
 
-To run the game: `python3 main.py`
+To run the game:
+```
+python3 main.py
+```
