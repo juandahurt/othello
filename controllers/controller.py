@@ -96,18 +96,6 @@ class Controller:
                     continue
                 dir = (x_dir, y_dir)
                 self.__possible_moves(dir)
-
-        """dir = (1, 0)
-        self.__possible_moves(dir)
-
-        dir = (-1, 0)
-        self.__possible_moves(dir)
-
-        dir = (0, -1)
-        self.__possible_moves(dir)
-
-        dir = (0, 1)
-        self.__possible_moves(dir)"""
         
     def __possible_moves(self, dir):
         # find all the possible moves from 'initial_pos' given a direction 'dir'
