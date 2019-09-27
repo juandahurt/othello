@@ -1,17 +1,15 @@
 """
     This module contains the main method. That's pretty much it...
-    Oh! And it also creates and show a board for othello game.
+    Oh! And it also creates and shows the board of the game.
 
-    author: Juan David Hurtado - <juanhm@unicauca.edu.co>
+    author: Juan David Hurtado - <juadahurtadom@gmail.com>
 """
 
-from board import Board
-from tkinter import Tk
+from controllers.controller import Controller
 
 def main():
-    root = Tk(className="othello!")
-    Board(root)
-    root.mainloop()
+    Controller()
+    
 
 if __name__ == "__main__":
     main()

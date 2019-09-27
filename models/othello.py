@@ -1,12 +1,12 @@
-from constants import PLAYER, CPU, EMPTY_SPACE
-from game import Game
+from config.config import PLAYER, CPU, EMPTY_SPACE
+from models.game import Game
 
 
 class Othello(Game):
     """Create a new Othello game.
     
         Atributtes:
-            cost_table (list): It contains the cost of every single place cell of the board.
+            cost_table (list): It contains the cost of every single cell of the board.
             width (int): The width of the board
             height (int): The height of the board
     """
@@ -31,7 +31,7 @@ class Othello(Game):
             oponent = CPU
         else:
             oponent = PLAYER
-        # getting player's chips positions
+        # get player's chips positions
         player_positions = []
         for row in range(0, self.width):
             for col in range(0, self.height):

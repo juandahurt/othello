@@ -1,4 +1,4 @@
-from constants import PLAYER, CPU
+from config.config import PLAYER, CPU
 
 class AlphaBeta():
     """Implment the alpha-beta algorithm.
